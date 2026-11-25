@@ -27,11 +27,7 @@ export default function HomePage() {
       <section style={{ minHeight:'100vh',paddingTop:'var(--nav-h)',background:'linear-gradient(135deg,var(--cream) 0%,var(--blush) 50%,#FAE8ED 100%)',display:'flex',alignItems:'center' }}>
         <div style={{ maxWidth:'var(--max-w)',margin:'0 auto',padding:'60px 24px',display:'grid',gridTemplateColumns:'1fr 1fr',gap:48,alignItems:'center' }}>
           <div className="animate-fade-up">
-<<<<<<< HEAD
-            <div className="section-label">✦ Est. 2018 · Pallavaram, Chennai</div>
-=======
-            <div className="section-label">✦ Est. 2020 · Nagercoil, Kanyakumari</div>
->>>>>>> 7ce7bd05b15c665559590619e4572bb305c3145a
+<div className="section-label">✦ Est. 2020 · Nagercoil, Kanyakumari</div>
             <h1 style={{ fontFamily:'var(--ff-display)',fontSize:'clamp(36px,5.5vw,68px)',fontWeight:300,lineHeight:1.1,marginBottom:18 }}>
               Where Every Bloom<br/><em style={{ color:'var(--rose)',fontWeight:400 }}>Tells a Story</em>
             </h1>
