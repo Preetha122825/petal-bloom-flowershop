@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 require('dotenv').config();
+=======
+require('dotenv').config({ path: __dirname + '/../.env' });
+
+console.log("MONGO_URI:", process.env.MONGO_URI);
+>>>>>>> 7ce7bd05b15c665559590619e4572bb305c3145a
 const connectDB = require('./db');
 const Product   = require('../models/Product');
 const User      = require('../models/User');
@@ -22,3 +28,7 @@ const seed = async () => {
   process.exit();
 };
 seed().catch(e => { console.error(e); process.exit(1); });
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7ce7bd05b15c665559590619e4572bb305c3145a
